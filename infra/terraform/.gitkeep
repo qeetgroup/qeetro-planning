@@ -1,0 +1,3 @@
+# Reserved for later infrastructure-as-code work.
+# Do NOT scaffold Kubernetes/Terraform clusters during MVP.
+# See ADR-0001 (modular monolith) and docs/planning/02-architecture-blueprint.md §Deployment.

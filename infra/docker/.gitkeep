@@ -1,0 +1,3 @@
+# Reserved for Sprint 1 (PF-007).
+# Will contain: docker-compose.yml for Postgres + Redis, env examples,
+# health checks. No real secrets committed.
