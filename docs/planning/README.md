@@ -21,6 +21,14 @@ This folder is the pre-implementation blueprint for qeetro. It is intended to le
    - Implementation-ready issue catalog with metadata, dependencies, acceptance criteria, tests, and definition of done.
    - Sprint sequencing and implementation order.
 
+5. [Sprint 0 Checklist](sprint-0-checklist.md)
+   - Day-by-day execution checklist for PL-001..PL-004 between May 14 and May 17, 2026.
+   - Maps every prerequisite for Sprint 1 to a verifiable checkbox.
+
+## Related
+
+- [Architecture Decision Records](../adr/) — start with [ADR-0001 modular monolith](../adr/0001-modular-monolith.md).
+
 ## Planning Assumptions
 
 - Sprint length: 2 weeks.

@@ -1,0 +1,47 @@
+# qeetro CODEOWNERS
+#
+# Until a real team is in place, the single maintainer owns every path.
+# Replace @maintainer with the GitHub team handles defined in
+# docs/planning/02-architecture-blueprint.md (Code Ownership section)
+# as soon as teams are formed.
+
+* @maintainer
+
+# Planning, ADRs, docs
+/docs/                              @maintainer
+/docs/adr/                          @maintainer
+/docs/planning/                     @maintainer
+
+# Apps
+/apps/web/                          @maintainer
+/apps/api/                          @maintainer
+/apps/worker/                       @maintainer
+
+# Backend domain ownership inside apps/api (Work Core, Identity, Platform)
+/apps/api/src/modules/issues/       @maintainer
+/apps/api/src/modules/projects/     @maintainer
+/apps/api/src/modules/boards/       @maintainer
+/apps/api/src/modules/auth/         @maintainer
+/apps/api/src/modules/identity/     @maintainer
+/apps/api/src/modules/permissions/  @maintainer
+/apps/api/src/modules/organizations/ @maintainer
+
+# Shared packages
+/packages/ui/                       @maintainer
+/packages/database/                 @maintainer
+/packages/event-contracts/          @maintainer
+/packages/permissions/              @maintainer
+/packages/api-client/               @maintainer
+/packages/config/                   @maintainer
+/packages/domain/                   @maintainer
+/packages/utils/                    @maintainer
+/packages/logger/                   @maintainer
+/packages/testing/                  @maintainer
+/packages/tsconfig/                 @maintainer
+/packages/eslint-config/            @maintainer
+
+# Infra and CI
+/infra/                             @maintainer
+/.github/                           @maintainer
+/.github/workflows/                 @maintainer
+/scripts/                           @maintainer

@@ -1,0 +1,4 @@
+# Reserved for Sprint 1 (PF-006).
+# Will contain: api-client, config, database, domain, event-contracts,
+# eslint-config, logger, permissions, testing, tsconfig, ui, utils.
+# See docs/planning/02-architecture-blueprint.md §6 for dependency rules.
